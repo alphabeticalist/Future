@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feature</title>
+    <link rel="stylesheet" href="/dist/tailwind.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-orange-50 font-inter">
+    <!-- header -->
+    <nav>
+      <div
+        class="container flex justify-between items-center px-10 md:px-20 mx-auto max-w-7xl py-10"
+      >
+        <div>
+          <a href="#"> <img src="./images/logo.svg" alt="logo" /></a>
+        </div>
+        <div>
+          <ul class="hidden space-x-5 text-gray-500 md:flex">
+            <li><a href="#" class="hover:text-orange-600">Home</a></li>
+            <li><a href="#" class="hover:text-orange-600">New</a></li>
+            <li><a href="#" class="hover:text-orange-600">Popular</a></li>
+            <li><a href="#" class="hover:text-orange-600">Trending</a></li>
+            <li><a href="#" class="hover:text-orange-600">Categories</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Main body -->
+    <section id="main">
+      <div
+        class="container flex-row px-10 md:px-20 mx-auto max-w-7xl space-x-10 md:flex"
+      >
+        <div>
+          <!-- Image -->
+          <img src="./images/image-web-3-desktop.jpg" alt="" />
+          <!-- Two Items -->
+          <div class="flex-row mt-10 md:space-x-10 md:max-w-3xl md:flex">
+            <h2 class="text-5xl font-extrabold">
+              The bright Future of Web 3.0?
+            </h2>
+            <!-- Paragraph -->
+            <div>
+              <p class="text-gray-500 md:px-5">
+                We dive into next evolution of the web that claims to put the
+                power of the platforms back into hands of the people. But is it
+                really fulfilling it's promise?
+              </p>
+              <button
+                class="bg-orange-600 text-white mb-6 ml-0 md:ml-5 py-3 px-5 md:py-3 md:px-10 tracking-[.4em] uppercase mx-5 mt-6"
+              >
+                <a href="#">Read More</a>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!--flex List items -->
+
+        <div class="bg-black m-0 px-5 pt-5 md:px-5 md:pt-5 md:w-2/4">
+          <h3 class="text-amber-400 text-4xl font-extrabold mb-8 pt-6">New</h3>
+          <!-- list -->
+
+          <div>
+            <span class="font-bold text-white">Hydrogen VS electric Cars</span>
+            <p class="text-xs mb-6 mt-3 text-gray-300">
+              Will Hydrogen-fueled cars ever catch up to EVs?
+            </p>
+            <div class="border border-gray-300 mb-5"></div>
+          </div>
+          <!-- list -->
+
+          <div>
+            <span class="font-bold mt-8 text-white"
+              >The Down side Of Al Industries</span
+            >
+            <p class="text-xs mb-6 mt-3 text-gray-300">
+              We the possible adverse effects of on-demand Ai image generation?
+            </p>
+            <div class="border border-gray-300 mb-5"></div>
+          </div>
+          <!-- list -3 -->
+          <div>
+            <span class="font-bold text-white">Is VC Funding Drying Up</span>
+            <p class="text-xs mt-3 text-gray-300">
+              Private funding by Vc firms is down 50% YoY. we take a look at
+              what that means.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- last section -->
+    <div
+      class="container flex-row px-10 mt-5 space-y-9 mx-auto max-w-7xl space-x-10 md:px-20 md:flex"
+    >
+      <!-- 1 -->
+      <div class="flex space-x-5 md:flex md:mt-8">
+        <img class="h-2/5" src="./images/image-retro-pcs.jpg" alt="" />
+        <div>
+          <span class="font-bold text-3xl text-gray-300 mb-3">01</span>
+          <h3 class="font-bold mb-1">Reviewing Retro PCs</h3>
+          <p class="text-gray-500 text-xs leading-5">
+            What happens when old pcs are given modern upgrades?
+          </p>
+        </div>
+      </div>
+
+      <!-- 2 -->
+      <div class="flex space-x-5 md:flex">
+        <img class="h-2/5" src="./images/image-top-laptops.jpg" alt="" />
+        <div>
+          <span class="font-bold text-3xl text-gray-300 mb-3">02</span>
+          <h3 class="font-bold mb-1">Top 10 Laptops of 2022</h3>
+          <p class="text-gray-500 text-xs leading-5">
+            Our best picks for various needs of budgets
+          </p>
+        </div>
+      </div>
+      <!-- 3 -->
+
+      <div class="flex space-x-5 md:flex">
+        <img class="h-2/5" src="./images/image-gaming-growth.jpg" alt="" />
+        <div>
+          <span class="font-bold text-3xl text-gray-300 mb-3">03</span>
+          <h3 class="font-bold mb-1">The Growth of Gaming</h3>
+          <p class="text-gray-500 text-xs leading-5">
+            How the pandemic has spiked fresh opportunity
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
